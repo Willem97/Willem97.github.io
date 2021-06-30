@@ -9,7 +9,7 @@
 ### H2
 
 ```bash
-cp -r /etc/kubernetes/apps/engine-camera-manager-service/default /etc/kubernetes/apps/engine-camera-manager-service/default_v32
+cp -r /etc/kubernetes/apps/ /etc/kubernetes/apps/
 ```
 
 
@@ -63,5 +63,4 @@ func LocalTz() *time.Location {
 
 	return tz
 }
-
 ```
