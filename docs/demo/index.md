@@ -1,8 +1,5 @@
----
-title: "Demo"
-date: 2021-06-29T15:30:47+08:00
-draft: false
----
+# Demo
+
 
 # Demo
 
@@ -12,7 +9,7 @@ draft: false
 ### H2
 
 ```bash
-cp -r /etc/kubernetes/apps/ /etc/kubernetes/apps/
+cp -r /etc/kubernetes/apps/engine-camera-manager-service/default /etc/kubernetes/apps/engine-camera-manager-service/default_v32
 ```
 
 
@@ -66,4 +63,5 @@ func LocalTz() *time.Location {
 
 	return tz
 }
+
 ```

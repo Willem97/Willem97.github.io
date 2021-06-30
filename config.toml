@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://willem97.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # theme
 # 主题
 theme = "LoveIt"
@@ -159,7 +159,7 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "xxxx"
+        GitHub = "https://github.com/Willem97"
         Linkedin = ""
         Twitter = "xxxx"
         Instagram = "xxxx"
@@ -220,11 +220,13 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "xxxx@xxxx.com"
+        Email = "wxp_sampson@163.com"
         RSS = true
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+          prefix = "https://Willem97.technology/"
+          # 当鼠标停留在图标上时的提示内容
+          title = "Willem97"
 
   [languages.zh-cn]
     weight = 2
